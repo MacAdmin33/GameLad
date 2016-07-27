@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F407CE4ECD31BC6FB60BAFBA71F676F18C0F45D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "98E446AEAD988A6647C05E2B8EABE5F251DF3D4D" : 0,
+    "F407CE4ECD31BC6FB60BAFBA71F676F18C0F45D3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8914F81A-1304-4485-B3A8-2239ECB0701A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "98E446AEAD988A6647C05E2B8EABE5F251DF3D4D" : "GameLad\/",
+    "F407CE4ECD31BC6FB60BAFBA71F676F18C0F45D3" : "GameLadMac\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GameLadMac",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GameLadMac.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Dooskington\/GameLad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "98E446AEAD988A6647C05E2B8EABE5F251DF3D4D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MacAdmin33\/GameLad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F407CE4ECD31BC6FB60BAFBA71F676F18C0F45D3"
+    }
+  ]
+}
