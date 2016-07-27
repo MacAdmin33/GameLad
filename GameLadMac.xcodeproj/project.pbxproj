@@ -6,11 +6,194 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		8D17055F1D497D5700FDE998 /* CPUTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CPUTests.cpp; path = "gb-emu-tests/CPUTests.cpp"; sourceTree = "<group>"; };
+		8D1705601D497D5700FDE998 /* gb-emu-tests.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gb-emu-tests.vcxproj"; path = "gb-emu-tests/gb-emu-tests.vcxproj"; sourceTree = "<group>"; };
+		8D1705611D497D5700FDE998 /* gb-emu-tests.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gb-emu-tests.vcxproj.filters"; path = "gb-emu-tests/gb-emu-tests.vcxproj.filters"; sourceTree = "<group>"; };
+		8D1705621D497D5700FDE998 /* GPUTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GPUTests.cpp; path = "gb-emu-tests/GPUTests.cpp"; sourceTree = "<group>"; };
+		8D1705631D497D5700FDE998 /* JoypadTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JoypadTests.cpp; path = "gb-emu-tests/JoypadTests.cpp"; sourceTree = "<group>"; };
+		8D1705641D497D5700FDE998 /* MBCTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MBCTests.cpp; path = "gb-emu-tests/MBCTests.cpp"; sourceTree = "<group>"; };
+		8D1705651D497D5700FDE998 /* packages.config */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = packages.config; path = "gb-emu-tests/packages.config"; sourceTree = "<group>"; };
+		8D1705661D497D5700FDE998 /* stdafx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stdafx.cpp; path = "gb-emu-tests/stdafx.cpp"; sourceTree = "<group>"; };
+		8D1705671D497D5700FDE998 /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = "gb-emu-tests/stdafx.h"; sourceTree = "<group>"; };
+		8D1705681D497D5700FDE998 /* targetver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = targetver.h; path = "gb-emu-tests/targetver.h"; sourceTree = "<group>"; };
+		8D1705691D497D5700FDE998 /* TestMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TestMain.cpp; path = "gb-emu-tests/TestMain.cpp"; sourceTree = "<group>"; };
+		8D17056A1D497D7E00FDE998 /* APU.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = APU.o; path = "gb-emu-lib_bin/APU.o"; sourceTree = "<group>"; };
+		8D17056B1D497D7E00FDE998 /* Cartridge.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Cartridge.o; path = "gb-emu-lib_bin/Cartridge.o"; sourceTree = "<group>"; };
+		8D17056C1D497D7E00FDE998 /* CPU.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = CPU.o; path = "gb-emu-lib_bin/CPU.o"; sourceTree = "<group>"; };
+		8D17056D1D497D7E00FDE998 /* Emulator.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Emulator.o; path = "gb-emu-lib_bin/Emulator.o"; sourceTree = "<group>"; };
+		8D17056E1D497D7E00FDE998 /* GPU.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = GPU.o; path = "gb-emu-lib_bin/GPU.o"; sourceTree = "<group>"; };
+		8D17056F1D497D7E00FDE998 /* Joypad.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Joypad.o; path = "gb-emu-lib_bin/Joypad.o"; sourceTree = "<group>"; };
+		8D1705701D497D7E00FDE998 /* libgb-emu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libgb-emu.a"; path = "gb-emu-lib_bin/libgb-emu.a"; sourceTree = "<group>"; };
+		8D1705711D497D7E00FDE998 /* Logger.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Logger.o; path = "gb-emu-lib_bin/Logger.o"; sourceTree = "<group>"; };
+		8D1705721D497D7E00FDE998 /* MBC.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = MBC.o; path = "gb-emu-lib_bin/MBC.o"; sourceTree = "<group>"; };
+		8D1705731D497D7E00FDE998 /* MMU.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = MMU.o; path = "gb-emu-lib_bin/MMU.o"; sourceTree = "<group>"; };
+		8D1705741D497D7E00FDE998 /* pch.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = pch.o; path = "gb-emu-lib_bin/pch.o"; sourceTree = "<group>"; };
+		8D1705751D497D7E00FDE998 /* Serial.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Serial.o; path = "gb-emu-lib_bin/Serial.o"; sourceTree = "<group>"; };
+		8D1705761D497D7E00FDE998 /* Timer.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Timer.o; path = "gb-emu-lib_bin/Timer.o"; sourceTree = "<group>"; };
+		8D1705771D497D9300FDE998 /* CPUTests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = CPUTests.o; path = "gb-emu_bin/CPUTests.o"; sourceTree = "<group>"; };
+		8D1705781D497D9300FDE998 /* gb-emu */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "gb-emu"; path = "gb-emu_bin/gb-emu"; sourceTree = "<group>"; };
+		8D1705791D497D9300FDE998 /* gb-emu-tests */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "gb-emu-tests"; path = "gb-emu_bin/gb-emu-tests"; sourceTree = "<group>"; };
+		8D17057A1D497D9300FDE998 /* GPUTests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = GPUTests.o; path = "gb-emu_bin/GPUTests.o"; sourceTree = "<group>"; };
+		8D17057B1D497D9300FDE998 /* JoypadTests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = JoypadTests.o; path = "gb-emu_bin/JoypadTests.o"; sourceTree = "<group>"; };
+		8D17057C1D497D9300FDE998 /* Main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = Main.o; path = "gb-emu_bin/Main.o"; sourceTree = "<group>"; };
+		8D17057D1D497D9300FDE998 /* MBCTests.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = MBCTests.o; path = "gb-emu_bin/MBCTests.o"; sourceTree = "<group>"; };
+		8D17057E1D497D9300FDE998 /* pch.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = pch.o; path = "gb-emu_bin/pch.o"; sourceTree = "<group>"; };
+		8D17057F1D497D9300FDE998 /* stdafx.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = stdafx.o; path = "gb-emu_bin/stdafx.o"; sourceTree = "<group>"; };
+		8D1705801D497D9300FDE998 /* TestMain.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = TestMain.o; path = "gb-emu_bin/TestMain.o"; sourceTree = "<group>"; };
+		8D1705811D497DAE00FDE998 /* gb-emu.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gb-emu.vcxproj"; path = "gb-emu/gb-emu.vcxproj"; sourceTree = "<group>"; };
+		8D1705821D497DAE00FDE998 /* gb-emu.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gb-emu.vcxproj.filters"; path = "gb-emu/gb-emu.vcxproj.filters"; sourceTree = "<group>"; };
+		8D1705831D497DAE00FDE998 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = "gb-emu/Main.cpp"; sourceTree = "<group>"; };
+		8D1705841D497DAE00FDE998 /* packages.config */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = packages.config; path = "gb-emu/packages.config"; sourceTree = "<group>"; };
+		8D1705851D497DAE00FDE998 /* pch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pch.cpp; path = "gb-emu/pch.cpp"; sourceTree = "<group>"; };
+		8D1705861D497DAE00FDE998 /* PCH.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = PCH.hpp; path = "gb-emu/PCH.hpp"; sourceTree = "<group>"; };
+		8D1705871D497DC300FDE998 /* APU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = APU.cpp; path = "gb-emu-lib/APU.cpp"; sourceTree = "<group>"; };
+		8D1705881D497DC300FDE998 /* APU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = APU.hpp; path = "gb-emu-lib/APU.hpp"; sourceTree = "<group>"; };
+		8D1705891D497DC300FDE998 /* Cartridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cartridge.cpp; path = "gb-emu-lib/Cartridge.cpp"; sourceTree = "<group>"; };
+		8D17058A1D497DC300FDE998 /* Cartridge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Cartridge.hpp; path = "gb-emu-lib/Cartridge.hpp"; sourceTree = "<group>"; };
+		8D17058B1D497DC300FDE998 /* CPU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CPU.cpp; path = "gb-emu-lib/CPU.cpp"; sourceTree = "<group>"; };
+		8D17058C1D497DC300FDE998 /* CPU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CPU.hpp; path = "gb-emu-lib/CPU.hpp"; sourceTree = "<group>"; };
+		8D17058D1D497DC300FDE998 /* Emulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Emulator.cpp; path = "gb-emu-lib/Emulator.cpp"; sourceTree = "<group>"; };
+		8D17058E1D497DC300FDE998 /* Emulator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Emulator.hpp; path = "gb-emu-lib/Emulator.hpp"; sourceTree = "<group>"; };
+		8D17058F1D497DC300FDE998 /* gb-emu-lib.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gb-emu-lib.vcxproj"; path = "gb-emu-lib/gb-emu-lib.vcxproj"; sourceTree = "<group>"; };
+		8D1705901D497DC300FDE998 /* gb-emu-lib.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gb-emu-lib.vcxproj.filters"; path = "gb-emu-lib/gb-emu-lib.vcxproj.filters"; sourceTree = "<group>"; };
+		8D1705911D497DC300FDE998 /* GPU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GPU.cpp; path = "gb-emu-lib/GPU.cpp"; sourceTree = "<group>"; };
+		8D1705921D497DC300FDE998 /* GPU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = GPU.hpp; path = "gb-emu-lib/GPU.hpp"; sourceTree = "<group>"; };
+		8D1705931D497DC300FDE998 /* ICPU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = ICPU.hpp; path = "gb-emu-lib/ICPU.hpp"; sourceTree = "<group>"; };
+		8D1705941D497DC300FDE998 /* IMemoryUnit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = IMemoryUnit.hpp; path = "gb-emu-lib/IMemoryUnit.hpp"; sourceTree = "<group>"; };
+		8D1705951D497DC300FDE998 /* IMMU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = IMMU.hpp; path = "gb-emu-lib/IMMU.hpp"; sourceTree = "<group>"; };
+		8D1705961D497DC300FDE998 /* Joypad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Joypad.cpp; path = "gb-emu-lib/Joypad.cpp"; sourceTree = "<group>"; };
+		8D1705971D497DC300FDE998 /* Joypad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Joypad.hpp; path = "gb-emu-lib/Joypad.hpp"; sourceTree = "<group>"; };
+		8D1705981D497DC300FDE998 /* Logger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Logger.cpp; path = "gb-emu-lib/Logger.cpp"; sourceTree = "<group>"; };
+		8D1705991D497DC300FDE998 /* Logger.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Logger.hpp; path = "gb-emu-lib/Logger.hpp"; sourceTree = "<group>"; };
+		8D17059A1D497DC300FDE998 /* MBC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MBC.cpp; path = "gb-emu-lib/MBC.cpp"; sourceTree = "<group>"; };
+		8D17059B1D497DC300FDE998 /* MBC.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MBC.hpp; path = "gb-emu-lib/MBC.hpp"; sourceTree = "<group>"; };
+		8D17059C1D497DC300FDE998 /* MMU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MMU.cpp; path = "gb-emu-lib/MMU.cpp"; sourceTree = "<group>"; };
+		8D17059D1D497DC300FDE998 /* MMU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MMU.hpp; path = "gb-emu-lib/MMU.hpp"; sourceTree = "<group>"; };
+		8D17059E1D497DC300FDE998 /* packages.config */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = packages.config; path = "gb-emu-lib/packages.config"; sourceTree = "<group>"; };
+		8D17059F1D497DC300FDE998 /* pch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pch.cpp; path = "gb-emu-lib/pch.cpp"; sourceTree = "<group>"; };
+		8D1705A01D497DC300FDE998 /* pch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = pch.hpp; path = "gb-emu-lib/pch.hpp"; sourceTree = "<group>"; };
+		8D1705A11D497DC300FDE998 /* Serial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Serial.cpp; path = "gb-emu-lib/Serial.cpp"; sourceTree = "<group>"; };
+		8D1705A21D497DC300FDE998 /* Serial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Serial.hpp; path = "gb-emu-lib/Serial.hpp"; sourceTree = "<group>"; };
+		8D1705A31D497DC300FDE998 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Timer.cpp; path = "gb-emu-lib/Timer.cpp"; sourceTree = "<group>"; };
+		8D1705A41D497DC300FDE998 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Timer.hpp; path = "gb-emu-lib/Timer.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		8D1705091D497A4B00FDE998 = {
 			isa = PBXGroup;
 			children = (
+				8D1705531D497AE500FDE998 /* gb-emu-tests */,
+				8D1705451D497AC500FDE998 /* gb-emu-lib_bin */,
+				8D17053A1D497AAE00FDE998 /* gb-emu_bin */,
+				8D1705331D497A9A00FDE998 /* gb-emu */,
+				8D1705141D497A7B00FDE998 /* gb-emu-lib */,
 			);
+			sourceTree = "<group>";
+		};
+		8D1705141D497A7B00FDE998 /* gb-emu-lib */ = {
+			isa = PBXGroup;
+			children = (
+				8D1705871D497DC300FDE998 /* APU.cpp */,
+				8D1705881D497DC300FDE998 /* APU.hpp */,
+				8D1705891D497DC300FDE998 /* Cartridge.cpp */,
+				8D17058A1D497DC300FDE998 /* Cartridge.hpp */,
+				8D17058B1D497DC300FDE998 /* CPU.cpp */,
+				8D17058C1D497DC300FDE998 /* CPU.hpp */,
+				8D17058D1D497DC300FDE998 /* Emulator.cpp */,
+				8D17058E1D497DC300FDE998 /* Emulator.hpp */,
+				8D17058F1D497DC300FDE998 /* gb-emu-lib.vcxproj */,
+				8D1705901D497DC300FDE998 /* gb-emu-lib.vcxproj.filters */,
+				8D1705911D497DC300FDE998 /* GPU.cpp */,
+				8D1705921D497DC300FDE998 /* GPU.hpp */,
+				8D1705931D497DC300FDE998 /* ICPU.hpp */,
+				8D1705941D497DC300FDE998 /* IMemoryUnit.hpp */,
+				8D1705951D497DC300FDE998 /* IMMU.hpp */,
+				8D1705961D497DC300FDE998 /* Joypad.cpp */,
+				8D1705971D497DC300FDE998 /* Joypad.hpp */,
+				8D1705981D497DC300FDE998 /* Logger.cpp */,
+				8D1705991D497DC300FDE998 /* Logger.hpp */,
+				8D17059A1D497DC300FDE998 /* MBC.cpp */,
+				8D17059B1D497DC300FDE998 /* MBC.hpp */,
+				8D17059C1D497DC300FDE998 /* MMU.cpp */,
+				8D17059D1D497DC300FDE998 /* MMU.hpp */,
+				8D17059E1D497DC300FDE998 /* packages.config */,
+				8D17059F1D497DC300FDE998 /* pch.cpp */,
+				8D1705A01D497DC300FDE998 /* pch.hpp */,
+				8D1705A11D497DC300FDE998 /* Serial.cpp */,
+				8D1705A21D497DC300FDE998 /* Serial.hpp */,
+				8D1705A31D497DC300FDE998 /* Timer.cpp */,
+				8D1705A41D497DC300FDE998 /* Timer.hpp */,
+			);
+			name = "gb-emu-lib";
+			sourceTree = "<group>";
+		};
+		8D1705331D497A9A00FDE998 /* gb-emu */ = {
+			isa = PBXGroup;
+			children = (
+				8D1705811D497DAE00FDE998 /* gb-emu.vcxproj */,
+				8D1705821D497DAE00FDE998 /* gb-emu.vcxproj.filters */,
+				8D1705831D497DAE00FDE998 /* Main.cpp */,
+				8D1705841D497DAE00FDE998 /* packages.config */,
+				8D1705851D497DAE00FDE998 /* pch.cpp */,
+				8D1705861D497DAE00FDE998 /* PCH.hpp */,
+			);
+			name = "gb-emu";
+			sourceTree = "<group>";
+		};
+		8D17053A1D497AAE00FDE998 /* gb-emu_bin */ = {
+			isa = PBXGroup;
+			children = (
+				8D1705771D497D9300FDE998 /* CPUTests.o */,
+				8D1705781D497D9300FDE998 /* gb-emu */,
+				8D1705791D497D9300FDE998 /* gb-emu-tests */,
+				8D17057A1D497D9300FDE998 /* GPUTests.o */,
+				8D17057B1D497D9300FDE998 /* JoypadTests.o */,
+				8D17057C1D497D9300FDE998 /* Main.o */,
+				8D17057D1D497D9300FDE998 /* MBCTests.o */,
+				8D17057E1D497D9300FDE998 /* pch.o */,
+				8D17057F1D497D9300FDE998 /* stdafx.o */,
+				8D1705801D497D9300FDE998 /* TestMain.o */,
+			);
+			name = "gb-emu_bin";
+			sourceTree = "<group>";
+		};
+		8D1705451D497AC500FDE998 /* gb-emu-lib_bin */ = {
+			isa = PBXGroup;
+			children = (
+				8D17056A1D497D7E00FDE998 /* APU.o */,
+				8D17056B1D497D7E00FDE998 /* Cartridge.o */,
+				8D17056C1D497D7E00FDE998 /* CPU.o */,
+				8D17056D1D497D7E00FDE998 /* Emulator.o */,
+				8D17056E1D497D7E00FDE998 /* GPU.o */,
+				8D17056F1D497D7E00FDE998 /* Joypad.o */,
+				8D1705701D497D7E00FDE998 /* libgb-emu.a */,
+				8D1705711D497D7E00FDE998 /* Logger.o */,
+				8D1705721D497D7E00FDE998 /* MBC.o */,
+				8D1705731D497D7E00FDE998 /* MMU.o */,
+				8D1705741D497D7E00FDE998 /* pch.o */,
+				8D1705751D497D7E00FDE998 /* Serial.o */,
+				8D1705761D497D7E00FDE998 /* Timer.o */,
+			);
+			name = "gb-emu-lib_bin";
+			sourceTree = "<group>";
+		};
+		8D1705531D497AE500FDE998 /* gb-emu-tests */ = {
+			isa = PBXGroup;
+			children = (
+				8D17055F1D497D5700FDE998 /* CPUTests.cpp */,
+				8D1705601D497D5700FDE998 /* gb-emu-tests.vcxproj */,
+				8D1705611D497D5700FDE998 /* gb-emu-tests.vcxproj.filters */,
+				8D1705621D497D5700FDE998 /* GPUTests.cpp */,
+				8D1705631D497D5700FDE998 /* JoypadTests.cpp */,
+				8D1705641D497D5700FDE998 /* MBCTests.cpp */,
+				8D1705651D497D5700FDE998 /* packages.config */,
+				8D1705661D497D5700FDE998 /* stdafx.cpp */,
+				8D1705671D497D5700FDE998 /* stdafx.h */,
+				8D1705681D497D5700FDE998 /* targetver.h */,
+				8D1705691D497D5700FDE998 /* TestMain.cpp */,
+			);
+			name = "gb-emu-tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -23,6 +206,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/Valtteri/Documents/Developer/GameLad;
 			dependencies = (
 			);
 			name = GameLadMac;
