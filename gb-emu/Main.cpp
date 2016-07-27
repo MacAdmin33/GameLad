@@ -1,9 +1,14 @@
 #include "PCH.hpp"
 #include <Emulator.hpp>
 
+<<<<<<< HEAD
 // Play with this 1/120 is "FAST" and 1/60 is "SLOW"
 //const double TimePerFrame = 1.0 / 120.0;
 const double TimePerFrame = 16.783536 / 1000;
+=======
+// 60 FPS or 16.67ms
+const double TimePerFrame = 1.0 / 60.0;
+>>>>>>> 9b4ed6aabbf9bf1f1d86529916fd1667f5f1ad4a
 
 // The number of CPU cycles per frame
 const unsigned int CyclesPerFrame = 70224;
@@ -101,12 +106,20 @@ void ProcessInput(Emulator& emulator)
         input |= JOYPAD_INPUT_RIGHT;
     }
 
+<<<<<<< HEAD
     if(keys[SDL_SCANCODE_L])
+=======
+    if(keys[SDL_SCANCODE_K])
+>>>>>>> 9b4ed6aabbf9bf1f1d86529916fd1667f5f1ad4a
     {
         buttons |= JOYPAD_BUTTONS_A;
     }
 
+<<<<<<< HEAD
     if(keys[SDL_SCANCODE_K])
+=======
+    if(keys[SDL_SCANCODE_L])
+>>>>>>> 9b4ed6aabbf9bf1f1d86529916fd1667f5f1ad4a
     {
         buttons |= JOYPAD_BUTTONS_B;
     }
@@ -134,11 +147,19 @@ int main(int argc, char** argv)
         windowScale = atoi(argv[1]);
     }
 
+<<<<<<< HEAD
     //std::string bootROM;
     std::string bootROM = "../res/games/dmg_bios.bin";
     //std::string bootROM = "res/games/gbc_bios.bin";
 
     //std::string romPath = "../res/tests/cpu_instrs.gb";            // PASSED
+=======
+    std::string bootROM;
+    //std::string bootROM = "res/games/dmg_bios.bin";
+    //std::string bootROM = "res/games/gbc_bios.bin";
+
+    //std::string romPath = "res/tests/cpu_instrs.gb";            // PASSED
+>>>>>>> 9b4ed6aabbf9bf1f1d86529916fd1667f5f1ad4a
         //std::string romPath = "res/tests/01-special.gb";            // PASSED
         //std::string romPath = "res/tests/02-interrupts.gb";         // PASSED
         //std::string romPath = "res/tests/03-op sp,hl.gb";           // PASSED
@@ -165,10 +186,16 @@ int main(int argc, char** argv)
     //std::string romPath = "res/games/Super Mario Land (World).gb";
     //std::string romPath = "res/games/Tamagotchi.gb";
     //std::string romPath = "res/games/Battletoads.gb";
+<<<<<<< HEAD
     std::string romPath = "../res/games/SuperMarioLand.gb";
     //std::string romPath = "../res/games/Tetris.gb";
     //std::string romPath = "res/games/Zelda.gb";
     //std::string romPath = "res/games/plantboy.gb";
+=======
+    //std::string romPath = "res/games/Tetris.gb";
+    //std::string romPath = "res/games/Zelda.gb";
+    std::string romPath = "res/games/plantboy.gb";
+>>>>>>> 9b4ed6aabbf9bf1f1d86529916fd1667f5f1ad4a
     //std::string romPath = "res/games/Metroid.gb";
     //std::string romPath = "res/games/Castlevania.gb";
 

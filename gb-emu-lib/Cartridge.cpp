@@ -144,9 +144,15 @@ bool Cartridge::LoadMBC(unsigned int actualSize)
         {
             std::streampos size = file.tellg();
 #if WINDOWS
+<<<<<<< HEAD
             int iSize = static_cast<int>(size.seekpos());
 #else
             int iSize = size;
+=======
+            unsigned int iSize = static_cast<int>(size.seekpos());
+#else
+            unsigned int iSize = size;
+>>>>>>> 9b4ed6aabbf9bf1f1d86529916fd1667f5f1ad4a
 #endif
             file.seekg(0, std::ios::beg);
 
