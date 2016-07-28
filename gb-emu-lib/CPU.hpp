@@ -204,11 +204,7 @@ private:
 
     // Clock cycles
     unsigned long m_cycles; // The current number of cycles
-    bool m_isHalted;
-<<<<<<< HEAD
     byte m_IFWhenHalted;
-=======
->>>>>>> 9b4ed6aabbf9bf1f1d86529916fd1667f5f1ad4a
 
     // Registers
     ushort m_AF; // Accumulator & flags
