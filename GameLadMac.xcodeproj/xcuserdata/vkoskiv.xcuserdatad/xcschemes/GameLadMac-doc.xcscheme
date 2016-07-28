@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8D17050E1D497A4B00FDE998"
-               BuildableName = "GameLadMac"
-               BlueprintName = "GameLadMac"
+               BlueprintIdentifier = "8DF4006A1D4A3D5400471BFF"
+               BuildableName = "GameLadMac-doc"
+               BlueprintName = "GameLadMac-doc"
                ReferencedContainer = "container:GameLadMac.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8DF4006A1D4A3D5400471BFF"
+            BuildableName = "GameLadMac-doc"
+            BlueprintName = "GameLadMac-doc"
+            ReferencedContainer = "container:GameLadMac.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -37,25 +46,21 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
-      useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "$(SRCROOT)"
+      useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <PathRunnable
-         runnableDebuggingMode = "0"
-         FilePath = "/Users/vkoskiv/Documents/Developer/GameLad/gb-emu_bin/gb-emu">
-      </PathRunnable>
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8D17050E1D497A4B00FDE998"
-            BuildableName = "GameLadMac"
-            BlueprintName = "GameLadMac"
+            BlueprintIdentifier = "8DF4006A1D4A3D5400471BFF"
+            BuildableName = "GameLadMac-doc"
+            BlueprintName = "GameLadMac-doc"
             ReferencedContainer = "container:GameLadMac.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -65,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8D17050E1D497A4B00FDE998"
-            BuildableName = "GameLadMac"
-            BlueprintName = "GameLadMac"
+            BlueprintIdentifier = "8DF4006A1D4A3D5400471BFF"
+            BuildableName = "GameLadMac-doc"
+            BlueprintName = "GameLadMac-doc"
             ReferencedContainer = "container:GameLadMac.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

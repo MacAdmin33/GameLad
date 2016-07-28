@@ -187,7 +187,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = /Users/Valtteri/Documents/Developer/GameLadMac;
+			buildWorkingDirectory = "$(SRCROOT)";
 			dependencies = (
 			);
 			name = GameLadMac;
@@ -425,6 +425,7 @@
 				8DF400721D4A3D5400471BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
