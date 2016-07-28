@@ -44,7 +44,7 @@
       allowLocationSimulation = "YES">
       <PathRunnable
          runnableDebuggingMode = "0"
-         FilePath = "/Users/Valtteri/Documents/Developer/GameLad/gb-emu_bin/gb-emu">
+         FilePath = "/Users/Valtteri/Documents/Developer/GameLadMac/gb-emu_bin/gb-emu">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference

@@ -5,7 +5,7 @@
 
 CPU::CPU() :
     m_cycles(0),
-    m_IFWhenHalted(0x00),
+    m_isHalted(false),
     m_AF(0x0000),
     m_BC(0x0000),
     m_DE(0x0000),
