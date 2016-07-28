@@ -6,6 +6,29 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8DF400731D4A3D6E00471BFF /* CPUTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4005C1D4A385400471BFF /* CPUTests.cpp */; };
+		8DF400741D4A3D7400471BFF /* GPUTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4005F1D4A385400471BFF /* GPUTests.cpp */; };
+		8DF400751D4A3D7400471BFF /* JoypadTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400601D4A385400471BFF /* JoypadTests.cpp */; };
+		8DF400761D4A3D7400471BFF /* MBCTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400611D4A385400471BFF /* MBCTests.cpp */; };
+		8DF400771D4A3D7F00471BFF /* stdafx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400631D4A385400471BFF /* stdafx.cpp */; };
+		8DF400781D4A3D8600471BFF /* TestMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400661D4A385400471BFF /* TestMain.cpp */; };
+		8DF400791D4A3D8900471BFF /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400231D4A382D00471BFF /* Main.cpp */; };
+		8DF4007A1D4A3D8B00471BFF /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400251D4A382D00471BFF /* pch.cpp */; };
+		8DF4007B1D4A3D9800471BFF /* APU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400311D4A384400471BFF /* APU.cpp */; };
+		8DF4007C1D4A3DA000471BFF /* Cartridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400331D4A384400471BFF /* Cartridge.cpp */; };
+		8DF4007D1D4A3DA200471BFF /* CPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400351D4A384400471BFF /* CPU.cpp */; };
+		8DF4007E1D4A3DA500471BFF /* Emulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400371D4A384400471BFF /* Emulator.cpp */; };
+		8DF4007F1D4A3DA800471BFF /* GPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4003B1D4A384400471BFF /* GPU.cpp */; };
+		8DF400801D4A3DB100471BFF /* Joypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400401D4A384400471BFF /* Joypad.cpp */; };
+		8DF400811D4A3DB400471BFF /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400421D4A384400471BFF /* Logger.cpp */; };
+		8DF400821D4A3DB900471BFF /* MBC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400441D4A384400471BFF /* MBC.cpp */; };
+		8DF400831D4A3DBD00471BFF /* MMU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400461D4A384400471BFF /* MMU.cpp */; };
+		8DF400841D4A3DC000471BFF /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF400491D4A384400471BFF /* pch.cpp */; };
+		8DF400851D4A3DC400471BFF /* Serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4004B1D4A384400471BFF /* Serial.cpp */; };
+		8DF400861D4A3DC600471BFF /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4004D1D4A384400471BFF /* Timer.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8DF400211D4A382D00471BFF /* gb-emu.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text; name = "gb-emu.vcxproj"; path = "gb-emu/gb-emu.vcxproj"; sourceTree = "<group>"; };
 		8DF400221D4A382D00471BFF /* gb-emu.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "gb-emu.vcxproj.filters"; path = "gb-emu/gb-emu.vcxproj.filters"; sourceTree = "<group>"; };
@@ -54,7 +77,18 @@
 		8DF400641D4A385400471BFF /* stdafx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = "gb-emu-tests/stdafx.h"; sourceTree = "<group>"; };
 		8DF400651D4A385400471BFF /* targetver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = targetver.h; path = "gb-emu-tests/targetver.h"; sourceTree = "<group>"; };
 		8DF400661D4A385400471BFF /* TestMain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TestMain.cpp; path = "gb-emu-tests/TestMain.cpp"; sourceTree = "<group>"; };
+		8DF4006B1D4A3D5400471BFF /* GameLadMac-doc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "GameLadMac-doc"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DF400681D4A3D5400471BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8D1705091D497A4B00FDE998 = {
@@ -63,6 +97,7 @@
 				8D1705531D497AE500FDE998 /* gb-emu-tests */,
 				8D1705331D497A9A00FDE998 /* gb-emu */,
 				8D1705141D497A7B00FDE998 /* gb-emu-lib */,
+				8DF4006C1D4A3D5400471BFF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +169,14 @@
 			name = "gb-emu-tests";
 			sourceTree = "<group>";
 		};
+		8DF4006C1D4A3D5400471BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF4006B1D4A3D5400471BFF /* GameLadMac-doc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
@@ -153,6 +196,25 @@
 		};
 /* End PBXLegacyTarget section */
 
+/* Begin PBXNativeTarget section */
+		8DF4006A1D4A3D5400471BFF /* GameLadMac-doc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF400701D4A3D5400471BFF /* Build configuration list for PBXNativeTarget "GameLadMac-doc" */;
+			buildPhases = (
+				8DF400671D4A3D5400471BFF /* Sources */,
+				8DF400681D4A3D5400471BFF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GameLadMac-doc";
+			productName = "GameLadMac-doc";
+			productReference = 8DF4006B1D4A3D5400471BFF /* GameLadMac-doc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
 		8D17050A1D497A4B00FDE998 /* Project object */ = {
 			isa = PBXProject;
@@ -161,6 +223,9 @@
 				ORGANIZATIONNAME = "Valtteri Koskivuori";
 				TargetAttributes = {
 					8D17050E1D497A4B00FDE998 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8DF4006A1D4A3D5400471BFF = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -173,13 +238,45 @@
 				en,
 			);
 			mainGroup = 8D1705091D497A4B00FDE998;
+			productRefGroup = 8DF4006C1D4A3D5400471BFF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8D17050E1D497A4B00FDE998 /* GameLadMac */,
+				8DF4006A1D4A3D5400471BFF /* GameLadMac-doc */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF400671D4A3D5400471BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF4007D1D4A3DA200471BFF /* CPU.cpp in Sources */,
+				8DF4007B1D4A3D9800471BFF /* APU.cpp in Sources */,
+				8DF400761D4A3D7400471BFF /* MBCTests.cpp in Sources */,
+				8DF400781D4A3D8600471BFF /* TestMain.cpp in Sources */,
+				8DF400731D4A3D6E00471BFF /* CPUTests.cpp in Sources */,
+				8DF400801D4A3DB100471BFF /* Joypad.cpp in Sources */,
+				8DF4007C1D4A3DA000471BFF /* Cartridge.cpp in Sources */,
+				8DF400851D4A3DC400471BFF /* Serial.cpp in Sources */,
+				8DF400741D4A3D7400471BFF /* GPUTests.cpp in Sources */,
+				8DF4007E1D4A3DA500471BFF /* Emulator.cpp in Sources */,
+				8DF400831D4A3DBD00471BFF /* MMU.cpp in Sources */,
+				8DF4007F1D4A3DA800471BFF /* GPU.cpp in Sources */,
+				8DF400861D4A3DC600471BFF /* Timer.cpp in Sources */,
+				8DF400771D4A3D7F00471BFF /* stdafx.cpp in Sources */,
+				8DF400811D4A3DB400471BFF /* Logger.cpp in Sources */,
+				8DF400751D4A3D7400471BFF /* JoypadTests.cpp in Sources */,
+				8DF4007A1D4A3D8B00471BFF /* pch.cpp in Sources */,
+				8DF400791D4A3D8900471BFF /* Main.cpp in Sources */,
+				8DF400821D4A3DB900471BFF /* MBC.cpp in Sources */,
+				8DF400841D4A3DC000471BFF /* pch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		8D17050F1D497A4C00FDE998 /* Debug */ = {
@@ -280,6 +377,26 @@
 			};
 			name = Release;
 		};
+		8DF400711D4A3D5400471BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8DF400721D4A3D5400471BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +417,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8DF400701D4A3D5400471BFF /* Build configuration list for PBXNativeTarget "GameLadMac-doc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF400711D4A3D5400471BFF /* Debug */,
+				8DF400721D4A3D5400471BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
